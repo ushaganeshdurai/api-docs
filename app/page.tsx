@@ -16,7 +16,7 @@ export default function Home() {
     setTimeout(() => setCopiedCode(null), 2000)
   }
 
-  const CodeBlock = ({ code, language = "javascript", id }: { code: string; language?: string; id: string }) => (
+  const CodeBlock = ({ code, id }: { code: string; id: string }) => (
     <div className="relative">
       <pre className="bg-slate-900 text-slate-100 p-4 rounded-lg overflow-x-auto text-sm">
         <code>{code}</code>
@@ -512,7 +512,6 @@ export default function Home() {
 npm run dev
 
 # Server will start on http://localhost:8787`}
-                  language="bash"
                   id="start-server"
                 />
               </CardContent>
