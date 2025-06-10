@@ -94,10 +94,20 @@ export default function Home() {
               <a href="#getting-started" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Getting Started
               </a>
-              <Button variant="outline" size="sm">
-                <ExternalLink className="h-4 w-4 mr-2" />
-                GitHub
-              </Button>
+                <Button
+                asChild
+                variant="outline"
+                size="sm"
+                >
+                <a
+                  href="https://github.com/ushaganeshdurai/api-docs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  GitHub
+                </a>
+                </Button>
             </div>
           </nav>
         </div>
@@ -122,10 +132,6 @@ export default function Home() {
             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
               <Code className="h-5 w-5 mr-2" />
               View Documentation
-            </Button>
-            <Button size="lg" variant="outline">
-              <ExternalLink className="h-5 w-5 mr-2" />
-              Try API
             </Button>
           </div>
         </div>
@@ -575,10 +581,10 @@ fetch('http://localhost:8787/products')
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Server className="h-6 w-6 text-emerald-400" />
-                <h3 className="text-xl font-bold">Hono API</h3>
+                <h3 className="text-xl font-bold">Hono API ️‍🔥</h3>
               </div>
               <p className="text-slate-400">
-                A modern, fast, and lightweight REST API built with Hono.js for all your development needs.
+                A modern, fast, and lightweight REST API built with Hono.js  for all your development needs.
               </p>
             </div>
             <div>
@@ -617,7 +623,7 @@ fetch('http://localhost:8787/products')
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Hono API Documentation. Built with Next.js and Tailwind CSS.</p>
+            <p>&copy; 2025 Hono API Documentation. Built with Next.js and Tailwind CSS.</p>
           </div>
         </div>
       </footer>
