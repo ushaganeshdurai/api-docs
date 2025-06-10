@@ -100,7 +100,7 @@ export default function Home() {
                 size="sm"
                 >
                 <a
-                  href="https://github.com/ushaganeshdurai/api-docs"
+                  href="https://github.com/ushaganeshdurai/dummyapi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
