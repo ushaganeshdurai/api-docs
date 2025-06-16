@@ -212,7 +212,7 @@ export default function Home() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <code className="text-lg font-mono bg-white px-4 py-2 rounded border">http://localhost:8787</code>
+              <code className="text-lg font-mono bg-white px-4 py-2 rounded border">http://localhost:8787</code> or  <code className="text-lg font-mono bg-white px-4 py-2 rounded border">https://dummyapi-1xsj.onrender.com</code>
             </CardContent>
           </Card>
 
